@@ -2,7 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Flask-3.0.0-green.svg)](https://flask.palletsprojects.com/)
-[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black.svg)](https://vercel.com)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.5+-orange.svg)](https://matplotlib.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-red.svg)](https://scikit-learn.org/)
 
 This Flask application allows users to analyze movie ratings by genre and predict future ratings using machine learning.
 
