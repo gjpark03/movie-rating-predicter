@@ -7,9 +7,6 @@
 
 This Flask application allows users to analyze movie ratings by genre and predict future ratings using machine learning.
 
-## 🌐 Live Demo
-
-**Coming Soon** - Deploy to Vercel to get your live URL!
 
 ## 🚀 Quick Start
 
@@ -64,7 +61,6 @@ deactivate
 - pandas: Data manipulation
 - matplotlib: Data visualization
 - scikit-learn: Machine learning for predictions
-- gunicorn: Production WSGI server (for deployment)
 
 ## 📁 Project Structure
 
