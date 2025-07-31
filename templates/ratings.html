@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ratings for {{ genre }}</title>
+</head>
+<body>
+    <h1>Ratings for {{ genre }}
+        {% if start_year and end_year %}
+            from {{ start_year }} to {{ end_year }}
+        {% endif %}
+    </h1>
+
+    <img src="{{ url_for('fig', genre=genre) }}" alt="Ratings for {{ genre }}">
+
+    <form action="/submit_year_range" method="POST">
+        <p>Select the year range you would like to display ratings for:</p>
+        <label for="start_year">Start Year:</label>
+        <select name="start_year">
+            {% for y in years %}
+                {% if start_year and y == start_year %}
+                    <option value="{{y}}" selected>{{y}}</option>
+                {% else %}
+                    <option value="{{y}}">{{y}}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+
+        <br>
+
+        <label for="end_year">End Year:</label>
+        <select name="end_year">
+            {% for y in years %}
+                {% if end_year and y == end_year %}
+                    <option value="{{y}}" selected>{{y}}</option>
+                {% else %}
+                    <option value="{{y}}">{{y}}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <form action="/predict" method="POST">
+        <p>Enter a year to predict the average rating:</p>
+        <label for="prediction_year">Year:</label>
+        <input type="number" name="prediction_year" required>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

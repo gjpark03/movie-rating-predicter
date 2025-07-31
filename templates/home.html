@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select a Genre</title>
+</head>
+<body>
+<h1>{{ message }}</h1>
+<form action="/submit_genre" method="POST">
+    Choose a Genre:
+    <SELECT name="genre">
+    {% for g in genres %}
+        {% if g == 'Comedy' %}
+            <OPTION value='{{g}}' selected>{{g}}</option>
+        {% else %}
+            <OPTION value='{{g}}'>{{g}}</option>
+        {% endif %}
+    {% endfor %}
+    </SELECT>
+    <p><input type="submit" value="Submit"></p>
+</form>
+</body>
+</html>
