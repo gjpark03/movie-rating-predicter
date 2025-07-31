@@ -55,6 +55,12 @@ deactivate
 - Predict future ratings using linear regression
 - Interactive visualizations with matplotlib
 
+
+> Example: Crime Movie Ratings from 1996 - 2016 and Prediction for 2026
+
+  <img width="629" height="493" alt="Screenshot 2025-07-31 at 12 50 16 PM" src="https://github.com/user-attachments/assets/826f9086-6556-4d3a-8fc8-8992c8d67e25" />
+
+
 ## Dependencies
 
 - Flask: Web framework
