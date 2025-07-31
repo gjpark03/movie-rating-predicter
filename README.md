@@ -67,6 +67,22 @@ deactivate
 - matplotlib: Data visualization
 - scikit-learn: Machine learning for predictions
 
+> [!Important]
+
+## 🚨 Common Errors & Solutions
+
+### Port 5000 Already in Use
+**Error:** `Address already in use` or `OSError: [Errno 48] Address already in use`
+
+**Solution for Mac Users:**
+1. Go to **System Preferences** → **Sharing**
+2. Uncheck **AirPlay Receiver** in the left sidebar
+3. This will free up port 5000 for your Flask app
+
+**Alternative Solutions:**
+- Kill the process using port 5000: `kill -9 $(lsof -ti:5000)`
+- Use a different port: Change `app.run(port=5001)` in `app.py`
+
 ## 📁 Project Structure
 
 ```
