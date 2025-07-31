@@ -2,9 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Flask-3.0.0-green.svg)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://github.com/yourusername/yourrepo)
-[![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](https://github.com/yourusername/yourrepo)
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-black.svg)](https://vercel.com)
 
 This Flask application allows users to analyze movie ratings by genre and predict future ratings using machine learning.
@@ -97,3 +94,8 @@ deactivate
     ├── home.html
     └── ratings.html
 ``` 
+
+## 👤 Author
+
+Grace Park
+- Email: parkjgrace2025@gmail.com
