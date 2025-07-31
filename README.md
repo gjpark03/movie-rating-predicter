@@ -12,21 +12,7 @@ This Flask application allows users to analyze movie ratings by genre and predic
 
 ## 🚀 Quick Start
 
-### Option 1: Deploy to Vercel (Recommended)
-
-1. **Fork or clone this repository**
-2. **Install Vercel CLI** (optional):
-   ```bash
-   npm i -g vercel
-   ```
-3. **Deploy to Vercel**:
-   - Go to [vercel.com](https://vercel.com)
-   - Sign up/Login with GitHub
-   - Click "New Project"
-   - Import your repository
-   - Deploy!
-
-### Option 2: Local Development
+### Local Development
 
 #### 1. Create a Virtual Environment
 
