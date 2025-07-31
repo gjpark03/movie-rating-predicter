@@ -5,8 +5,7 @@
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.5+-orange.svg)](https://matplotlib.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-red.svg)](https://scikit-learn.org/)
 
-This Flask application allows users to analyze movie ratings by genre and predict future ratings using machine learning.
-
+A Flask-based web application that leverages pandas for data manipulation, matplotlib for interactive visualizations, and scikit-learn's linear regression to analyze movie ratings by genre and predict future rating trends.
 
 ## 🚀 Quick Start
 
