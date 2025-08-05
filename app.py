@@ -14,12 +14,9 @@ app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 app.secret_key = os.urandom(12)
 
-# General Code 1: The code shall contain no global objects other than those provided.
-# only need the data from movies and ratings csv files.
 movies_df = pd.read_csv("csv/movies.csv")
 ratings_df = pd.read_csv("csv/ratings.csv")
 
-# General Code 2: View functions shall only contain code related to the view function itself;
 
 # Linear Regression Model
 def train_model():
@@ -260,6 +257,5 @@ def catch_all(path):
     return redirect(url_for("home"))
 
 if __name__ == "__main__":
-    # For Vercel deployment, use environment variables for host and port
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)

@@ -88,8 +88,6 @@ deactivate
 ```
 ├── app.py              # Main Flask application
 ├── requirements.txt    # Python dependencies
-├── vercel.json        # Vercel deployment configuration
-├── runtime.txt        # Python runtime specification
 ├── .gitignore         # Git ignore rules
 ├── csv/               # Data files
 │   ├── movies.csv
