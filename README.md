@@ -67,8 +67,6 @@ deactivate
 - matplotlib: Data visualization
 - scikit-learn: Machine learning for predictions
 
-> [!Important]
-
 ## 🚨 Common Errors & Solutions
 
 ### Port 5000 Already in Use
